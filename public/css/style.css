@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@200&display=swap');
+
+*{
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* header-logo  */
+.header-container{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    padding: 23px;
+    margin-left: 20px;
+    font-family: 'Anton', sans-serif;    
+    color: #1E3163;
+}
+/* header-logo  */
+
+/* banner-backgorund  */
+.background-wrapping{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.image-background{
+    width: 100%;
+}
+/* banner-backgorund  */
+
+
+.form-login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    margin-top: -55%;
+}
+.h1-login{
+    position: relative;
+    top: 23px;
+     font-size: 30px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;    
+    color: #1E3163;
+}
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+    font-weight: bold;
+}
+
+span {
+    position: relative;
+    bottom: -65px;
+	font-size: 12px;
+    font-weight: bold;
+   font-family: 'Anton', sans-serif;
+    color: #1E3163;
+}
+
+.Forgot-password{
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+     font-weight: bold;
+    font-family: 'Anton', sans-serif;    
+    color: #1E3163;
+}
+
+.button-group{
+	display: flex;
+    position: relative;
+	padding: 10px;
+    top: 50px;
+
+}
+.button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-right: 7px;
+	margin-left: 5px;
+	width: 150px;
+	text-decoration: none;
+}
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+	
+}
+
+input {
+	background-color: #eee;
+	border: none;
+    position: relative;
+    top: 37px;
+	padding: 13px 15px;
+	margin: 12px 0;
+	width: 100%;
+}
+
+.container-form {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.log-in-container {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+}
+
+
+.overlay-container {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+}
+
+
+.overlay {
+	
+	background: #1E3163;
+	background: -webkit-linear-gradient(to right, #1E3163, #1E3163);
+	background: linear-gradient(to right, #1E3163, #1E3163);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+	position: relative;
+	left: -100%;
+	height: 100%;
+	width: 200%;
+}
+
+.overlay-panel {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 50%;
+}
+
+
+.overlay-right {
+	right: 0;
+}
+
+
+.social-container {
+    position: relative;
+    top: 30px;
+	margin: 50px 0;
+}
+
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 5px;
+	height: 40px;
+	width: 40px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: -132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #1E3163;
+    width: 100%;
+    height: 140px;
+}
+
+.footer-ul li{
+    position: relative;
+    display: inline-block;
+    top: 34px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.footer-ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-social{
+position: relative;
+top: -13px;
+right: 60px;
+}
+.title-social{
+    position: relative;
+    text-align: center;
+    bottom: 8px;
+    left: 27px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.footer-social a{
+margin-left: 54px;
+}
+
+.footer-copywrite{
+    position: absolute;
+    left: 28px;
+    bottom: 40px;
+    color: #fff;
+    font-weight: bold;
+}
